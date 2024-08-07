@@ -1,0 +1,6 @@
+Timestamp: 2024-08-02 15:34:14,678 - __main__
+User Message: hi
+
+Timestamp: 2024-08-02 15:34:32,040 - __main__
+User Message: tell me about  your placements
+

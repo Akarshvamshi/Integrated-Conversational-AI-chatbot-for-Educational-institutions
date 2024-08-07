@@ -1,0 +1,108 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - thanks
+  - ask_course_details
+  - ask_admission
+  - ask_fees
+  - about_the_college
+  - about_placements
+  - about_hod
+  - about_principal
+
+responses:
+  utter_greet:
+  - text: "Hello"
+  - text: "Hi there"
+  - text: "Hey"
+  - text: "Greetings"
+  - text: "Good to see you"
+  - text: "Welcome"
+  - text: "Hi"
+  - text: "Hello there"
+  - text: "How’s it going?"
+  - text: "Nice to meet you"
+
+  utter_about_principal:
+  - text: "G T Raju is the Principal at Sri Jagadguru Chandrashekaranatha Swamiji Institute of Technology. He is an engineering graduate and did PhD from Visvesvaraya Technological University. He has 28 years of experience in Teaching, Training, Research, and Administration."
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Goodbye"
+  - text: "Have a great day"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_thanks:
+  - text: "Your welcome"
+  - text: "You're welcome"
+  - text: "No problem"
+  - text: "My pleasure"
+  - text: "Anytime"
+  - text: "Happy to help"
+  - text: "Glad I could assist"
+  - text: "No worries"
+
+  utter_ask_course:
+  - text: "We have many courses, which one would you like to know about?"
+
+  utter_ask_admission:
+  - text: "empty"
+
+  utter_about_college:
+    - text: "Sri Jagadguru Chandrashekaranatha Swamiji Institute of Technology (SJCIT), established in 1986, is located in Chickballapur, Karnataka, India. The college is affiliated with Visvesvaraya Technological University (VTU), Belagavi, and offers a range of undergraduate and postgraduate programs in various engineering disciplines, as well as MBA and MCA courses. SJCIT boasts modern infrastructure, including well-equipped laboratories, extensive libraries, comfortable hostels, and comprehensive sports facilities, creating a conducive environment for academic and personal growth."
+    - text: "Established in 1986, Sri Jagadguru Chandrashekaranatha Swamiji Institute of Technology (SJCIT) is located in Chickballapur, Karnataka, India. Affiliated with Visvesvaraya Technological University (VTU), Belagavi, SJCIT provides a range of undergraduate and postgraduate programs in engineering, along with MBA and MCA courses. The campus is equipped with modern facilities, including state-of-the-art labs, comprehensive libraries, and ample sports amenities. SJCIT is committed to fostering a supportive and innovative learning environment for its students."
+    - text: "The Institute is managed by Sri Adichunchanagiri Shikshana Trust,SJCIT is affiliated to Visvesvaraya Technological University (VTU), Belgaum. The Institution is recognized by the All India Council for Technical Education (AICTE), New Delhi, Accredited by NAAC and ISO 9001:2015 certified.Hyderabad National Highway-NH7, 45 kms from Bangalore city about, 20 kms from Kempe Gowda International Airport (Bangalore International Airport)"
+    - text: "Sri Jagadguru Chandrashekaranatha Swamiji Institute of Technology (SJCIT) operates under the management of the Sri Adichunchanagiri Shikshana Trust. Affiliated with Visvesvaraya Technological University (VTU), Belgaum, the institute is recognized by the All India Council for Technical Education (AICTE) and has achieved NAAC accreditation and ISO 9001:2015 certification. Conveniently located on the Hyderabad National Highway (NH7), SJCIT is about 45 kilometers from Bangalore city and approximately 20 kilometers from Kempe Gowda International Airport (Bangalore International Airport)."
+
+  utter_about_placements:
+    - text: "About 95% of the students from our course got placed. The highest salary package offered is 7 LPA, and the lowest salary package offered is 3 LPA. Top recruiting companies like Cognizant, Mindtree and Infosys visit our campus for placements. About 80% of the students from our course got an internship."
+    - text: "Our placement record is impressive, with approximately 95% of students from the course securing jobs. The highest salary package offered is 7 LPA, while the lowest is 3 LPA. Major recruiters like Cognizant, Mindtree, and Infosys frequently visit our campus. Additionally, around 80% of students have completed internships."
+    - text: "Approximately 95% of our course graduates have been successfully placed. The highest salary package available is 7 LPA, and the lowest is 3 LPA. Leading companies such as Cognizant, Mindtree, and Infosys are regular recruiters at our campus. Furthermore, around 80% of students also secure internships."
+    - text: "Our placement statistics show that 95% of students from the course are placed. The highest salary package is 7 LPA, while the lowest is 3 LPA. Prominent recruiters, including Cognizant, Mindtree, and Infosys, visit our campus regularly. About 80% of students also manage to get internships."
+    - text: "We have a strong placement record with around 95% of students from our course getting placed. The top salary package is 7 LPA, and the lowest is 3 LPA. Major companies such as Cognizant, Mindtree, and Infosys are among our campus recruiters. Additionally, roughly 80% of students have participated in internships."
+
+
+entities:
+  - course
+  - hod_course
+
+actions:
+  - action_course_thing
+  - action_course_fee_details
+  - action_hod_details
+
+slots:
+  course_slot:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: course
+  hod_slot:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: hod_course
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,17 @@
+{
+  "ise": {
+    "duration": "4 years",
+    "description": "The ISE course is a four-year undergraduate program...",
+    "fees": "Rs.2,00,000 per year"
+  },
+  "cse": {
+    "duration": "4 years",
+    "description": "The CSE course is a four-year undergraduate program...",
+    "fees": "Rs.2,50,000 per year"
+  },
+  "aiml": {
+    "duration": "4 years",
+    "description": "The AIML course is a four-year undergraduate program...",
+    "fees": "Rs.3,00,000 per year"
+  }
+}

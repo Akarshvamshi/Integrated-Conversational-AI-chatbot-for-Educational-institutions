@@ -1,0 +1,55 @@
+{
+    "ise": {
+        "duration": "4 years",
+        "description": "The ise course is a four-year undergraduate program that focuses on the design, development, and testing of software and hardware systems. To be eligible for this course, students typically need to have completed their 10+2 education with Physics, Mathematics, and Chemistry as core subjects. The course curriculum covers a wide range of topics, including programming languages such as C, C++, Java, and Python, as well as data structures and algorithms. Students also learn about computer networks and cybersecurity, database management systems, software engineering and testing, computer hardware and microprocessors, and web development and design. Additionally, students can choose from a variety of electives, such as artificial intelligence, machine learning, and data science."
+    },
+    "cse": {
+        "duration": "4 years",
+        "description": "The CSE course is a four-year undergraduate program that focuses on the design, development, and testing of software and hardware systems. To be eligible for this course, students typically need to have completed their 10+2 education with Physics, Mathematics, and Chemistry as core subjects. The course curriculum covers a wide range of topics, including programming languages such as C, C++, Java, and Python, as well as data structures and algorithms. Students also learn about computer networks and cybersecurity, database management systems, software engineering and testing, computer hardware and microprocessors, and web development and design. Additionally, students can choose from a variety of electives, such as artificial intelligence, machine learning, and data science."
+    },
+    "aiml": {
+        "duration": "4 years",
+        "description": "The aiml course is a four-year undergraduate program that focuses on the design, development, and testing of software and hardware systems. To be eligible for this course, students typically need to have completed their 10+2 education with Physics, Mathematics, and Chemistry as core subjects. The course curriculum covers a wide range of topics, including programming languages such as C, C++, Java, and Python, as well as data structures and algorithms. Students also learn about computer networks and cybersecurity, database management systems, software engineering and testing, computer hardware and microprocessors, and web development and design. Additionally, students can choose from a variety of electives, such as artificial intelligence, machine learning, and data science."
+    },
+    "mba": {
+        "duration": "2 years",
+        "description": "The mba course is a four-year undergraduate program that focuses on the design, development, and testing of software and hardware systems. To be eligible for this course, students typically need to have completed their 10+2 education with Physics, Mathematics, and Chemistry as core subjects. The course curriculum covers a wide range of topics, including programming languages such as C, C++, Java, and Python, as well as data structures and algorithms. Students also learn about computer networks and cybersecurity, database management systems, software engineering and testing, computer hardware and microprocessors, and web development and design. Additionally, students can choose from a variety of electives, such as artificial intelligence, machine learning, and data science."
+    },
+    "ec": {
+        "duration": "2 year",
+        "description": "The CSE course is a four-year undergraduate program that focuses on the design, development, and testing of software and hardware systems. To be eligible for this course, students typically need to have completed their 10+2 education with Physics, Mathematics, and Chemistry as core subjects. The course curriculum covers a wide range of topics, including programming languages such as C, C++, Java, and Python, as well as data structures and algorithms. Students also learn about computer networks and cybersecurity, database management systems, software engineering and testing, computer hardware and microprocessors, and web development and design. Additionally, students can choose from a variety of electives, such as artificial intelligence, machine learning, and data science."
+    },
+    "ase": {
+        "duration": "2 year",
+        "description": "The ASE course is a four-year undergraduate program that focuses on the design, development, and testing of software and hardware systems. To be eligible for this course, students typically need to have completed their 10+2 education with Physics, Mathematics, and Chemistry as core subjects. The course curriculum covers a wide range of topics, including programming languages such as C, C++, Java, and Python, as well as data structures and algorithms. Students also learn about computer networks and cybersecurity, database management systems, software engineering and testing, computer hardware and microprocessors, and web development and design. Additionally, students can choose from a variety of electives, such as artificial intelligence, machine learning, and data science."
+    },
+    "ae": {
+        "duration": "2 year",
+        "description": "The AE course is a four-year undergraduate program that focuses on the design, development, and testing of software and hardware systems. To be eligible for this course, students typically need to have completed their 10+2 education with Physics, Mathematics, and Chemistry as core subjects. The course curriculum covers a wide range of topics, including programming languages such as C, C++, Java, and Python, as well as data structures and algorithms. Students also learn about computer networks and cybersecurity, database management systems, software engineering and testing, computer hardware and microprocessors, and web development and design. Additionally, students can choose from a variety of electives, such as artificial intelligence, machine learning, and data science."
+    },
+    "aids": {
+        "duration": "2 year",
+        "description": "The aids course is a four-year undergraduate program that focuses on the design, development, and testing of software and hardware systems. To be eligible for this course, students typically need to have completed their 10+2 education with Physics, Mathematics, and Chemistry as core subjects. The course curriculum covers a wide range of topics, including programming languages such as C, C++, Java, and Python, as well as data structures and algorithms. Students also learn about computer networks and cybersecurity, database management systems, software engineering and testing, computer hardware and microprocessors, and web development and design. Additionally, students can choose from a variety of electives, such as artificial intelligence, machine learning, and data science."
+
+    },
+    "asd": {
+        "duration": "2 year",
+        "description": "The asd course is a four-year undergraduate program that focuses on the design, development, and testing of software and hardware systems. To be eligible for this course, students typically need to have completed their 10+2 education with Physics, Mathematics, and Chemistry as core subjects. The course curriculum covers a wide range of topics, including programming languages such as C, C++, Java, and Python, as well as data structures and algorithms. Students also learn about computer networks and cybersecurity, database management systems, software engineering and testing, computer hardware and microprocessors, and web development and design. Additionally, students can choose from a variety of electives, such as artificial intelligence, machine learning, and data science."
+
+    },
+    "csd": {
+        "duration": "2 year",
+        "description": "TThe csd course is a four-year undergraduate program that focuses on the design, development, and testing of software and hardware systems. To be eligible for this course, students typically need to have completed their 10+2 education with Physics, Mathematics, and Chemistry as core subjects. The course curriculum covers a wide range of topics, including programming languages such as C, C++, Java, and Python, as well as data structures and algorithms. Students also learn about computer networks and cybersecurity, database management systems, software engineering and testing, computer hardware and microprocessors, and web development and design. Additionally, students can choose from a variety of electives, such as artificial intelligence, machine learning, and data science."
+    },
+    "mech": {
+        "duration": "2 year",
+        "description": "TThe mech course is a four-year undergraduate program that focuses on the design, development, and testing of software and hardware systems. To be eligible for this course, students typically need to have completed their 10+2 education with Physics, Mathematics, and Chemistry as core subjects. The course curriculum covers a wide range of topics, including programming languages such as C, C++, Java, and Python, as well as data structures and algorithms. Students also learn about computer networks and cybersecurity, database management systems, software engineering and testing, computer hardware and microprocessors, and web development and design. Additionally, students can choose from a variety of electives, such as artificial intelligence, machine learning, and data science."
+    },
+    "civil": {
+        "duration": "2 year",
+        "description": "TThe civil course is a four-year undergraduate program that focuses on the design, development, and testing of software and hardware systems. To be eligible for this course, students typically need to have completed their 10+2 education with Physics, Mathematics, and Chemistry as core subjects. The course curriculum covers a wide range of topics, including programming languages such as C, C++, Java, and Python, as well as data structures and algorithms. Students also learn about computer networks and cybersecurity, database management systems, software engineering and testing, computer hardware and microprocessors, and web development and design. Additionally, students can choose from a variety of electives, such as artificial intelligence, machine learning, and data science."
+
+    }
+
+}
+

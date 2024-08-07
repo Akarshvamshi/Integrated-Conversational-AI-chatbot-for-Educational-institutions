@@ -1,0 +1,272 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SJC INSTITUTE OF TECHNOLOGY</title>
+    <link rel="stylesheet" href="static/css/style.css">
+   <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #e9eff1; /* Soft light background for the whole page */
+    }
+.chat-container {
+    width: 400px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #2c3e50; /* Charcoal blue */
+    color: #b3e5fc; /* Light blue color */
+    display: none;
+}
+    .chat-messages {
+        height: 400px;
+        overflow-y: auto;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #ffffff; /* Clean white background for messages */
+        border: 1px solid #ddd; /* Subtle border for messages */
+    }
+    .chat-message {
+        margin: 10px 0;
+        padding: 10px 15px;
+        border-radius: 20px; /* Rounded corners for messages */
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .chat-message.user {
+        background-color: #007bff; /* User message bubble color */
+        color: white;
+        text-align: right;
+        margin-left: auto; /* Align user messages to the right */
+    }
+    .chat-message.bot {
+        background-color: #f0f4f8; /* Bot message bubble color */
+        color: #333;
+        text-align: left;
+        margin-right: auto; /* Align bot messages to the left */
+    }
+    .chat-input-container {
+        display: flex;
+        margin-top: 10px;
+    }
+    .chat-input {
+        flex: 1;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 25px; /* Rounded input field */
+        background-color: #f9f9f9; /* Light background for input */
+        font-size: 15px;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+    }
+    .chat-button {
+        padding: 12px 18px;
+        border: none;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        border-radius: 25px; /* Rounded button */
+        margin-left: 10px;
+        font-size: 15px;
+        transition: background-color 0.3s, transform 0.2s; /* Smooth color transition and scale effect */
+    }
+    .chat-button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        transform: scale(1.05); /* Slightly larger on hover */
+    }
+    #start-chat-button {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        padding: 14px 22px;
+        font-size: 18px;
+        border: none;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        border-radius: 30px; /* More rounded button */
+        transition: background-color 0.3s, transform 0.2s; /* Smooth color transition and scale effect */
+    }
+    #start-chat-button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        transform: scale(1.05); /* Slightly larger on hover */
+    }
+</style>
+
+
+
+</head>
+<body>
+    <div class="head">
+        <div class="cet">KCET Code: E-014, COMED-K Code: E-108. PGCET CODE: MBA-B265, M.Tech -T865</div>
+        <div class="number">
+            For Admissions Contact
+            +91 9731292555
+            +91 9901653915
+        </div>
+    </div>
+
+    <div class="i2">
+        <div id="i2">
+            <img id="s1" src="static/images/s1.png"/>
+            <img id="s2" src="static/images/s2.png"/>
+            <p>|| Jai Sri Gurudev ||</p>
+            <p id="p2">Adichunchanagiri Shikshana Trust(R.)</p>
+            <p class="p3">SJC INSTITUTE OF TECHNOLOGY</p>
+            <p>VTU Affiliated, AICTE Approved, Accredited by NBA(CSE,ISE,ECE,ME,CV,AE) & NAAC with A+ grade, NIRF (151 - 300), Gold rated by QS I-Gauge</p>
+            <p>Chickballapur- 562101, Karnataka, India</p>
+        </div>
+    </div>
+
+    <div id="i3">
+        <a href="/">home</a>
+        <a href="">about</a>
+        <a href="">courses</a>
+        <a href="">Contact</a>
+        <a href="">not</a>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="static/images/c1.jpg" alt="Image 1" height="600px" width="800px"></div>
+            <div class="slide"><img src="static/images/c2.jpeg" alt="Image 2" height="600px" width="800px"></div>
+            <div class="slide"><img src="static/images/c3.jpeg" alt="Image 3" height="600px" width="800px"></div>
+            <div class="slide"><img src="static/images/c5.jpeg" alt="Image 5" height="600px" width="800px"></div>
+            <div class="slide"><img src="static/images/c6.jpg" alt="Image 4" height="600px" width="800px"></div>
+        </div>
+    </div>
+
+    <div class="i4">
+        <h1>about sjcit</h1>
+        <div class="j1">
+            <br><br>
+            <p>A premier institute imparting technical education since 1986. The college is situated on Bangalore – Hyderabad National Highway-NH7, 45 kms from Bangalore city about, 20 kms from Kempe Gowda International Airport (Bangalore International Airport) and about 5 kms from Muddenahalli, the birth place of Sir M. Visvesvaraya. The famous hill resort Nandi hill is about 15 kms from the college.</p>
+            <br><br>
+            <p>The Institute is managed by Sri Adichunchanagiri Shikshana Trust(R.) with the divine blessings of Byravaikya Jagadguru Padmabhushan Sri Sri Sri Dr. Balagangadharanatha Maha Swamiji’s and spiritual guidance of Jagadguru Sri Sri Sri Dr. Nirmalanandanatha Maha Swamiji. The Trust runs more than 485 Institutions all over the states of Karnataka, Maharashtra, Tamilnadu & Delhi.</p>
+        </div>
+        <div class="marquee-container">
+            <marquee>
+                <img src="static/images/a1.jpeg" alt="" style="width: 500px; height: 500px;">
+                <img src="static/images/a2.png" alt="" style="width: 500px; height: 500px;">
+                <img src="static/images/a3.png" alt="" style="width: 500px; height: 500px;">
+            </marquee>
+        </div>
+    </div>
+
+    <div class="foot">
+        <img src="static/images/fourth.png" alt="Footer Image" class="footer-image">
+        <p>A premier institute imparting technical education since 1986. The college is situated on Bangalore – Hyderabad National Highway-NH7, 45 kms from Bangalore city about, 20 kms from Kempe Gowda International Airport (Bangalore International Airport) and about 5 kms from Muddenahalli, the birth place of Sir M. Visvesvaraya. The famous hill resort Nandi hill is about 15 kms from the college.</p>
+
+        <div class="social-icons">
+            <div class="social-icon">
+                <a href="https://www.youtube.com/your-channel-url" target="_blank" rel="noopener noreferrer">
+                    <img src="static/images/yticon.png" alt="YouTube Icon" class="youtube-icon">
+                </a>
+            </div>
+            <div class="social-icon">
+                <a href="https://www.facebook.com/your-facebook-page" target="_blank" rel="noopener noreferrer">
+                    <img src="static/images/fbicon.png" alt="Facebook Icon" class="facebook-icon">
+                </a>
+            </div>
+        </div>
+
+        <ol>Visit us</ol>
+        <li>BB Road, Chickballapur, 562101</li>
+        <li>08156 200183</li>
+        <li>principal@sjcit.ac.in</li>
+    </div>
+
+    <button id="start-chat-button">Ask Me</button>
+
+    <div class="chat-container" id="chat-container">
+        <div id="chatbot-header" style="font-size: 20px">SJCIT Bot</div>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div class="chat-input-container">
+            <input type="text" id="chat-input" class="chat-input" placeholder="Type a message...">
+            <button id="chat-button" class="chat-button">Send</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('start-chat-button').addEventListener('click', function() {
+            var chatContainer = document.getElementById('chat-container');
+            var startChatButton = document.getElementById('start-chat-button');
+
+            if (chatContainer.style.display === 'none' || chatContainer.style.display === '') {
+                chatContainer.style.display = 'block';
+                chatContainer.classList.add('show');
+                chatContainer.classList.remove('hide');
+                startChatButton.textContent = 'X';
+            } else {
+                chatContainer.classList.add('hide');
+                chatContainer.classList.remove('show');
+                setTimeout(() => chatContainer.style.display = 'none', 300);
+                startChatButton.textContent = 'Ask Me';
+            }
+        });
+
+       function addMessage(message, sender) {
+    var chatMessages = document.getElementById('chat-messages');
+    var messageElement = document.createElement('div');
+    messageElement.className = 'chat-message ' + sender;
+
+    var labelElement = document.createElement('div');
+    labelElement.className = 'chat-label';
+    labelElement.textContent = sender === 'user' ? 'You:' : 'Bot:';
+
+    var textElement = document.createElement('div');
+    textElement.className = 'chat-text';
+    textElement.textContent = message;
+
+    messageElement.appendChild(labelElement);
+    messageElement.appendChild(textElement);
+
+    chatMessages.appendChild(messageElement);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+        function sendMessage() {
+            var chatInput = document.getElementById('chat-input');
+            var userMessage = chatInput.value;
+
+            if (userMessage) {
+                addMessage(userMessage, 'user');
+                chatInput.value = '';
+
+
+                fetch('/send_message', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ message: userMessage })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data && data[0] && data[0].text) {
+                        addMessage(data[0].text, 'bot');
+                    } else {
+                        addMessage('No response from bot', 'bot');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    addMessage('Error connecting to the server', 'bot');
+                });
+            }
+        }
+
+        document.getElementById('chat-button').addEventListener('click', sendMessage);
+
+        document.getElementById('chat-input').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html>

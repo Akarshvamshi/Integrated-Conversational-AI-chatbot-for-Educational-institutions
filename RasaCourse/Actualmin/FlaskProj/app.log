@@ -1,0 +1,93 @@
+2024-08-02 15:33:57,740 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-02 15:33:57,740 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-08-02 15:34:07,591 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET / HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,620 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,641 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/s1.png HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,650 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/s2.png HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,651 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/c2.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,658 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/c1.jpg HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,661 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/c3.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,666 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/c5.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,668 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/a2.png HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,671 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/c6.jpg HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,679 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/a1.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,680 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/a3.png HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,682 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/fourth.png HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,684 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/yticon.png HTTP/1.1[0m" 304 -
+2024-08-02 15:34:07,685 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:07] "[36mGET /static/images/fbicon.png HTTP/1.1[0m" 304 -
+2024-08-02 15:34:12,455 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5005
+2024-08-02 15:34:14,678 - urllib3.connectionpool - DEBUG - http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 45
+2024-08-02 15:34:14,678 - __main__ - DEBUG - Received user message: hi
+2024-08-02 15:34:14,678 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:14] "POST /send_message HTTP/1.1" 200 -
+2024-08-02 15:34:29,846 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5005
+2024-08-02 15:34:32,040 - urllib3.connectionpool - DEBUG - http://localhost:5005 "POST /webhooks/rest/webhook HTTP/1.1" 200 340
+2024-08-02 15:34:32,040 - __main__ - DEBUG - Received user message: tell me about  your placements
+2024-08-02 15:34:32,040 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 15:34:32] "POST /send_message HTTP/1.1" 200 -
+2024-08-02 18:54:09,006 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-02 18:54:09,007 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-08-02 18:54:39,147 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET / HTTP/1.1" 200 -
+2024-08-02 18:54:39,216 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-08-02 18:54:39,245 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/s1.png HTTP/1.1" 200 -
+2024-08-02 18:54:39,245 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/c1.jpg HTTP/1.1" 200 -
+2024-08-02 18:54:39,245 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/s2.png HTTP/1.1" 200 -
+2024-08-02 18:54:39,245 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/c2.jpeg HTTP/1.1" 200 -
+2024-08-02 18:54:39,252 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/c3.jpeg HTTP/1.1" 200 -
+2024-08-02 18:54:39,252 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/c5.jpeg HTTP/1.1" 200 -
+2024-08-02 18:54:39,305 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/c6.jpg HTTP/1.1" 200 -
+2024-08-02 18:54:39,369 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/a3.png HTTP/1.1" 200 -
+2024-08-02 18:54:39,369 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/a1.jpeg HTTP/1.1" 200 -
+2024-08-02 18:54:39,388 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/a2.png HTTP/1.1" 200 -
+2024-08-02 18:54:39,421 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/fourth.png HTTP/1.1" 200 -
+2024-08-02 18:54:39,425 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/yticon.png HTTP/1.1" 200 -
+2024-08-02 18:54:39,431 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "GET /static/images/fbicon.png HTTP/1.1" 200 -
+2024-08-02 18:54:39,552 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:54:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-02 18:55:26,278 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-02 18:55:26,278 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-08-02 18:55:29,321 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "GET / HTTP/1.1" 200 -
+2024-08-02 18:55:29,344 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,361 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/s1.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,363 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/s2.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,368 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/c2.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,369 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/c1.jpg HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,376 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/c3.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,382 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/c5.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,382 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/c6.jpg HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,384 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/a1.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,395 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/a2.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,398 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/fourth.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,398 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/a3.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,409 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/yticon.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,412 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/fbicon.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,557 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET / HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,599 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,628 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/s1.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,631 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/s2.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,641 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/c1.jpg HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,643 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/c2.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,646 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/c3.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,658 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/c5.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,661 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/c6.jpg HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,665 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/a1.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,677 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/fourth.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,678 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/a2.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,679 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/a3.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,681 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/yticon.png HTTP/1.1[0m" 304 -
+2024-08-02 18:55:29,691 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:55:29] "[36mGET /static/images/fbicon.png HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,192 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "GET / HTTP/1.1" 200 -
+2024-08-02 18:56:37,212 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-08-02 18:56:37,241 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/s1.png HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,243 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/s2.png HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,254 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/c1.jpg HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,256 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/c3.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,259 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/c2.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,262 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/c5.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,268 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/c6.jpg HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,274 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/a1.jpeg HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,278 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/a2.png HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,286 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/a3.png HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,291 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/fourth.png HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,293 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/fbicon.png HTTP/1.1[0m" 304 -
+2024-08-02 18:56:37,294 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2024 18:56:37] "[36mGET /static/images/yticon.png HTTP/1.1[0m" 304 -

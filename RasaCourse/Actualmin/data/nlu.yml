@@ -1,0 +1,227 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hai
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremely sad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: thanks
+  examples: |
+    - Thanks a lot
+    - You are the best
+    - Thanks!
+    - You are a savior
+
+- intent:  ask_admission
+  examples: |
+    - Talk to me about the admissions.
+    - Tell me about the admissions in thie college
+    - What is the admission percentage in this college
+
+- intent: ask_course_details
+  examples: |
+    - Do you have [cse](course) as a course?
+    - do you have [ise](course) as a course?
+    - tell me about the [mba](course) course.
+    - Do you provide [csd](course) course?
+    - is [ase](course) in your college?
+    - does your institution have [ec](course)?
+    - do you offer [ae](course)?
+    - I am interested in [civil](course).
+    - Does your curriculum offer [aids](course)?
+    - do you provide the [mech](course) program?
+    - is [aiml](course) a part of your academic program?
+    - can you provide information about your [aids](course) course?
+    - tell me about the [information science](course) course.
+
+- intent: ask_fees
+  examples: |
+    - What is the fee for [ISE](course)?
+    - What is the annual fee for [CSE](course)?
+    - How much does [AIML](course) cost?
+    - What is the cost of the [information science engineering](course) course?
+    - Can you tell me the fee for [ISE](course)?
+    - How much does the [ISE](course) program cost?
+    - How much is the [ISE](course) course?
+    - Could you provide the fee details for the [ISE](course) course?
+    - What is the pricing for the [information science engineering](course) course?
+    - Can you give me information on the fee for [ISE](course)?
+
+- intent: about_the_college
+  examples: |
+    - tell me about the college?
+    - give me short information about sjcit college?
+    - some information about the college?
+    - Can you give a brief overview of SJCIT College?
+    - What are some key facts about SJCIT College?
+    - basic about the Sri Jagadguru Chandrashekaranatha Swamiji Institute of Technology?
+    - about s j c institute of technology?
+    - can you specify the college name and some basic information
+    - give details about the sjc college
+    - give about the sjc institute
+
+- intent: about_placements
+  examples: |
+    - give me the information about the placements details?
+    - What are the placement details for your college?
+    - Can you provide information about the placement opportunities?
+    - How does your institute handle placements?
+    - What is the placement record of your institution?
+    - Could you tell me about the placement statistics?
+    - How are the placement services at your college?
+    - What companies visit your campus for placements?
+    - What is the average salary package for graduates?
+    - Are there any recent placement success stories?
+    - What kind of support does your institute offer for placements?
+    - Can you give me details on the placement process?
+    - What are the top recruiters for your graduates?
+    - How does your college assist students with job placements?
+    - What percentage of students get placed from your institution?
+    - Are there internship opportunities as part of the placement process?
+
+- intent: about_hod
+  examples: |
+    - Who is the hod of [AIDS](hod_course)
+    - who is the hod of department [cse](hod_course)?
+    - who is the current hod of the [ece](hod_course)?
+    - can you tell me the name of the hod [civil](hod_course)?
+    - who is the hod of the department [mech](hod_course)?
+    - who is the hod for [aerospace](hod_course)
+    - who is the hod for [aeronautical](hod_course)
+    - who is the head of the [ise](hod_course)
+    - Who oversees the [AIDS](hod_course) department?
+    - Who leads the [cse](hod_course) department?
+    - Who is in charge of the [ece](hod_course) department?
+    - Could you tell me who heads the [civil](hod_course) department?
+    - Who manages the [mech](hod_course) department?
+    - Who directs the [aerospace](hod_course) department?
+    - Who is the current head of the [aeronautical](hod_course) department?
+    - Who is the department head for [ise](hod_course)?
+    - Who is the head of the [cse](hod_course) department?
+    - Who is the hod for [AIDS](hod_course)?
+    - Can you tell me who leads the [mech](hod_course) department?
+    - Who is the hod of the [civil](hod_course) department?
+    - Who heads the [aerospace](hod_course) department?
+    - Who is the current head of the [aeronautical](hod_course) department?
+    - Who is the hod of the [ise](hod_course) department?
+    - Who is in charge of the [cse](hod_course) department?
+    - Who manages the [AIDS](hod_course) department?
+    - Who oversees the [mech](hod_course) department?
+    - Who is the head of department for [civil](hod_course)?
+    - Can you tell me who the hod of [aeronautical](hod_course) is?
+
+- intent: about_principal
+  examples: |
+    - Who is the current principal of sjcit?
+    - Can you tell me who the principal of this college is?
+    - Could you provide information about gt raju?
+    - Who holds the position of principal at this college?
+    - Do you know the name of the college principal?
+    - Who is leading sjcit as principal?
+    - Who is the principal currently serving at this college?
+    - Who is gt raju, the principal?
+    - Can you tell me who the current principal of the college is?
+    - What is the name of the principal of sjcit?
+    - Who is the acting principal of this college?
+    - Could you tell me about the principal, gt raju?
+    - Who is the current principal at sjcit?
+    - Do you know who the principal of this college is?
+    - Can you tell me the principal's name at sjcit?
+    - Who is the principal at this college right now?
+    - Who is the person named gt raju, the principal?
+    - Who is serving as the principal of sjcit?
+    - Who is the principal here at this college?
+    - Can you provide the name of the current principal of sjcit?
+
+    
+
+- synonym: ise
+  examples: |
+    - information science engineering

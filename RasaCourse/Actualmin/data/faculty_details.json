@@ -1,0 +1,36 @@
+
+{
+  "hod_ise":{
+      "Name" : "Satheesh Chandra Reddy is the HOD of the department Information Science Engineering"
+  },
+  "hod_cse": {
+    "Name": "Dr. Manjunatha Kumar B.H is the HOD of the department Computer Science Engineering"
+
+  },
+  "hod_aiml": {
+    "Name": "Dr. Vikas Reddy S is the HOD of the department Artificial Intelligence Machine Learning"
+
+  },
+  "hod_aids": {
+    "Name":"Dr. Nagaraja G is the HOD of department artificial intelligence and data science"
+
+  },
+  "hod_ece": {
+    "Name": "Dr. C Rangaswamy is the HOD of department electronics and communication"
+  },
+  "hod_civil": {
+    "Name": "Dr. G Narayana is the HOD of department civil engineering"
+
+  },
+  "hod_aerospace": {
+    "Name": "Dr. Madhusudhana S V is the HOD of department aerospace engineering"
+
+  },
+  "hod_aeronautical": {
+    "Name": "Dr. Deepa M.S is the HOD of department aeronautical engineering"
+  },
+  "hod_mechanical": {
+    "Name": "Dr. Thyagaraj N.R is the HOD of department mechanical engineering"
+
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-course",
+      "2": "I-course",
+      "3": "L-course",
+      "4": "U-course",
+      "5": "B-hod_course",
+      "6": "I-hod_course",
+      "7": "L-hod_course",
+      "8": "U-hod_course",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-course": 1,
+      "I-course": 2,
+      "L-course": 3,
+      "U-course": 4,
+      "B-hod_course": 5,
+      "I-hod_course": 6,
+      "L-hod_course": 7,
+      "U-hod_course": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

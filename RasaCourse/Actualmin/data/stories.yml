@@ -1,0 +1,116 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: admission path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_admission
+  - action: utter_ask_admission
+  - intent: thanks
+  - action: utter_thanks
+
+- story: course path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_course_details
+  - action: action_course_thing
+  - intent: thanks
+  - action: utter_thanks
+
+- story: fee path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_fees
+  - action: action_course_fee_details
+  - intent: thanks
+  - action: utter_thanks
+
+- story: correct course name
+  steps:
+  - intent: ask_course_details
+    entities:
+      - course: "AIML"
+  - action: action_course_thing
+
+- story: course details inquiry
+  steps:
+  - intent: ask_course_details
+    entities:
+      - course: "CSE"
+  - action: action_course_thing
+
+
+- story: about college
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_the_college
+  - action: utter_about_college
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: about placements
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_placements
+  - action: utter_about_placements
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story:  about hod
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_hod
+      entities:
+        - course: "hod_ise"
+    - action: action_hod_details
+
+- story:  about principal
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_principal
+    - action: utter_about_principal
+
+- story: about hod
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_placements
+    - action: utter_about_placements
+    - intent: about_hod
+    - action: action_hod_details
+
